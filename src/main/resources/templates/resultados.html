@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Resultados de la calculdora</title>
+</head>
+<body>
+<h1>Resultados</h1>
+
+	<h2>
+		La suma es: <span th:text="${resultSuma}"></span>
+	</h2>
+	<h2>
+		La resta es: <span th:text="${resultResta}"></span>
+	</h2>
+	<h2>
+		La multiplicacion es: <span th:text="${resultMultiplicacion}"></span>
+	</h2>
+	<h2>
+		La division es: <span th:text="${resultDivision}"></span>
+	</h2>
+	<h2>
+		La potencia es: <span th:text="${resultPotencia}"></span>
+	</h2>
+	<h2>
+		La raiz es: <span th:text="${resultRaiz}"></span>
+	</h2>
+
+	<a href="menu">Volver al Menu</a>
+</body>
+</html>
